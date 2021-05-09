@@ -47,7 +47,7 @@ class _AnimatedSpriteImageWidgetState extends State<AnimatedSpriteImageWidget> {
 
     //定时器
     Timer.periodic(widget.duration, (timer) {
-      //逻辑（待学习）
+      //逻辑
         if(currentTimes <= widget.playTimes){
           setState(() {
             if(currentIndex >= widget.endIndex){
