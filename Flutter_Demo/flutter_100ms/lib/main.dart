@@ -244,7 +244,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text('100S'),
       ),
-      //待学习GestureDetector
+      //GestureDetector
       body: GestureDetector(
         onPanUpdate: (DragUpdateDetails details) {
           playerLeft += details.delta.dx;
